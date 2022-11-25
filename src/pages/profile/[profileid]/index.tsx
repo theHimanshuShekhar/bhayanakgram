@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+const Profile: NextPage = () => {
   return (
     <>
       <Head>
@@ -11,11 +11,11 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <div className="item-center mx-auto text-center text-9xl text-gray-600">
-          Home Page
+          Profile Page
         </div>
       </main>
     </>
   );
 };
 
-export default Home;
+export default Profile;
